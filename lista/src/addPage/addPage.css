@@ -1,0 +1,17 @@
+#centralizarFlexi{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titulo{
+    width: 100%;
+    text-align: center;
+}
+#addpage{
+    width: 50vh;
+    height: 50vh;
+    background-color: rgba(128, 128, 128, 0.412);
+    border-radius: 2em;
+}

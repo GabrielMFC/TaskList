@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#redLine{
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 1.5vh;
+    margin-left: 5vh;
+    background-color: rgb(255, 123, 123);
+    left: 0%;
+    top: 0%;
+}
+#Linhaazul{
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 2vh;
+    background-color: blue;
+}

@@ -1,0 +1,84 @@
+body{
+    overflow-x: hidden;
+}
+#Centralizarflexi{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#menu{
+    position: absolute;
+    z-index: 2;
+    width: 15vh;
+    height: 40vh;
+    margin: 1%;
+    border-radius: 2em 0em 2em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.icon{
+    position: relative;
+    width: 10vh;
+    height: 10vh;
+    cursor: pointer;
+    z-index: 3;
+}
+#deleteIcon{
+    width: 12vh;
+    height: 12vh;
+}
+.gray{
+    background-color: rgba(128, 128, 128, 0.412);
+}
+.green:hover{
+    animation: greens 1s linear;
+    animation-fill-mode: forwards;
+}
+.red:hover{
+    animation: reds 1s linear;
+    animation-fill-mode: forwards;
+}
+.blue:hover{
+    animation: cyans 1s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes greens {
+    100%{
+        background-color: yellowgreen;
+    }
+}
+@keyframes reds {
+    100%{
+        background-color: red;
+    }
+}
+@keyframes cyans {
+    100%{
+        background-color: cyan;
+    }
+}
+#CentralizarCaixaDeColisao{
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colisao{
+    position: relative;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    margin: 5%;
+    z-index: 4;
+    cursor: pointer;
+}
